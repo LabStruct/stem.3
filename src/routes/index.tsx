@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
-import PDF_URL from "@/assets/stem3.pdf";
+import PDF_URL from "@/assets/STEM.3.pdf";
 import COVER_URL from "@/assets/stem3-cover.jpg";
 import PG2_URL from "@/assets/stem3-pg-02.jpg";
 import PG3_URL from "@/assets/stem3-pg-03.jpg";
