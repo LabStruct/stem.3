@@ -1,24 +1,23 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
-import pdfAsset from "@/assets/stem3.pdf.asset.json";
-import coverAsset from "@/assets/stem3-cover.jpg.asset.json";
-import pg2 from "@/assets/stem3-pg-02.jpg.asset.json";
-import pg3 from "@/assets/stem3-pg-03.jpg.asset.json";
-import pg4 from "@/assets/stem3-pg-04.jpg.asset.json";
-import pg5 from "@/assets/stem3-pg-05.jpg.asset.json";
+import PDF_URL from "@/assets/stem3.pdf";
+import COVER_URL from "@/assets/stem3-cover.jpg";
+import PG2_URL from "@/assets/stem3-pg-02.jpg";
+import PG3_URL from "@/assets/stem3-pg-03.jpg";
+import PG4_URL from "@/assets/stem3-pg-04.jpg";
+import PG5_URL from "@/assets/stem3-pg-05.jpg";
 
 export const Route = createFileRoute("/")({
   component: Home,
   head: () => ({
     meta: [
-      { property: "og:image", content: coverAsset.url },
-      { name: "twitter:image", content: coverAsset.url },
+      { property: "og:image", content: COVER_URL },
+      { name: "twitter:image", content: COVER_URL },
     ],
   }),
 });
 
-const PDF_URL = pdfAsset.url;
-const PDF_SIZE_MB = (pdfAsset.size / 1024 / 1024).toFixed(1);
+const PDF_SIZE_MB = "2.2"
 const PDF_PAGES = 29;
 const VERSION = "2.0";
 const LAST_UPDATED = "July 2026";
@@ -291,7 +290,7 @@ function BookMockup() {
           }}
         >
           <img
-            src={coverAsset.url}
+            src={COVER_URL}
             alt="STEM.3 textbook cover — Engineering + Physics"
             className="h-full w-full object-cover"
             loading="eager"
@@ -505,11 +504,11 @@ function Why() {
 
 function Preview() {
   const pages = [
-    { url: coverAsset.url, label: "Cover" },
-    { url: pg2.url, label: "Page 2" },
-    { url: pg3.url, label: "Page 3" },
-    { url: pg4.url, label: "Page 4" },
-    { url: pg5.url, label: "Page 5" },
+    { url: COVER_URL, label: "Cover" },
+    { url: PG2_URL, label: "Page 2" },
+    { url: PG3_URL, label: "Page 3" },
+    { url: PG4_URL, label: "Page 4" },
+    { url: PG5_URL, label: "Page 5" },
   ];
   const [i, setI] = useState(0);
   const total = pages.length;
