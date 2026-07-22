@@ -357,7 +357,7 @@ function Hero() {
 
 function SocialProof() {
   const items = [
-    "Created by a UK National Finalistt",
+    "Created by a UK National Finalist",
     "200+ hours of development",
     "Free forever",
     "Designed for KS3 learners",
