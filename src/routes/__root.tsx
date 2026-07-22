@@ -83,7 +83,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "STEM.3 is a completely free KS3 STEM textbook covering physics and engineering through real-world examples and hands-on activities.",
       },
-      { name: "author", content: "Siddharth Santhosh" },
       { property: "og:title", content: "STEM.3 — Free KS3 STEM Textbook" },
       {
         property: "og:description",
