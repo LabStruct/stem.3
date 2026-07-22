@@ -316,7 +316,7 @@ function Hero() {
         <div className="flex flex-col justify-center">
           <div className="inline-flex w-fit items-center gap-2 rounded-full border border-[#e5e5e5] bg-white px-3 py-1 text-xs text-[#374151]">
             <span className="h-1.5 w-1.5 rounded-full bg-[#16a34a]" />
-            Free KS3 STEM textbook · Wales
+            Free KS3 STEM textbook · UK
           </div>
           <h1 className="mt-6 text-[2.5rem] font-bold leading-[1.05] tracking-tight text-[#111111] sm:text-5xl md:text-[3.5rem] lg:text-[4rem]">
             Learn STEM through building, experimenting and engineering.
@@ -357,7 +357,7 @@ function Hero() {
 
 function SocialProof() {
   const items = [
-    "Created by a UK STEM Racing National Finalist",
+    "Created by a UK National Finalistt",
     "200+ hours of development",
     "Free forever",
     "Designed for KS3 learners",
@@ -647,8 +647,7 @@ function Footer() {
           <div className="max-w-sm">
             <Logo />
             <p className="mt-4 text-sm leading-relaxed text-[#6b6b6b]">
-              Making STEM education freely accessible. Created by Siddharth
-              Santhosh.
+              Making STEM education freely accessible.
             </p>
           </div>
           <nav
