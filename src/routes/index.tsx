@@ -64,10 +64,7 @@ function Reveal({
     </Component>
   );
 }
-
-/* -------------------------------------------------------------------------- */
-/*  Icons — simple geometric line icons                                        */
-/* -------------------------------------------------------------------------- */
+=
 const iconProps = {
   width: 22,
   height: 22,
@@ -265,6 +262,7 @@ function Hero() {
     <section id="top" className="relative">
       <div className="container-page grid gap-14 pb-16 pt-14 md:grid-cols-[1.05fr_.95fr] md:gap-16 md:pb-24 md:pt-20 lg:pt-24">
         <div className="flex flex-col justify-center">
+          <div className="flex items-center gap-2 text-sm font-medium">
             <span className="h-1.5 w-1.5 rounded-full bg-[#16a34a]" />
             Free KS3 STEM textbook
           </div>
@@ -336,32 +334,26 @@ const CHAPTERS: {
   {
     title: "Motion",
     desc: "Speed, forces and momentum — explained through vehicles, sport and everyday life.",
-    Icon: Icons.Motion,
   },
   {
     title: "Electricity",
     desc: "Circuits, current and voltage, built up from first principles and real experiments.",
-    Icon: Icons.Electricity,
   },
   {
     title: "Aerospace",
     desc: "How aircraft fly, how rockets escape gravity, and the physics behind flight.",
-    Icon: Icons.Aerospace,
   },
   {
     title: "Renewable Energy",
     desc: "Solar, wind and hydro — the engineering shaping a low-carbon future.",
-    Icon: Icons.Renewable,
   },
   {
     title: "Robotics",
     desc: "Sensors, actuators and control systems used in modern robotics.",
-    Icon: Icons.Robotics,
   },
   {
     title: "Engineering Design",
     desc: "The design process engineers use to solve real problems, from sketch to prototype.",
-    Icon: Icons.Design,
   },
 ];
 
@@ -408,17 +400,14 @@ function Inside() {
 function Why() {
   const items = [
     {
-      Icon: Icons.World,
       title: "Real-world engineering",
       desc: "Every concept is anchored in something a student can see, touch, or build — from race cars to wind turbines.",
     },
     {
-      Icon: Icons.Hand,
       title: "Hands-on experiments",
       desc: "Practical activities you can run at home or in a classroom, using accessible materials.",
     },
     {
-      Icon: Icons.Gift,
       title: "Completely free",
       desc: "No signup, no paywall, no advertisements. Written to be shared with any KS3 student in Wales.",
     },
