@@ -400,14 +400,17 @@ function Why() {
     {
       title: "Real-world engineering",
       desc: "Every concept is anchored in something a student can see, touch, or build — from race cars to wind turbines.",
+      Icon: Icons.Check,
     },
     {
       title: "Hands-on experiments",
       desc: "Practical activities you can run at home or in a classroom, using accessible materials.",
+      Icon: Icons.Check,
     },
     {
       title: "Completely free",
       desc: "No signup, no paywall, no advertisements. Written to be shared with any KS3 student in Wales.",
+      Icon: Icons.Check,
     },
   ];
   return (
