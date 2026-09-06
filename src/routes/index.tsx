@@ -64,7 +64,7 @@ function Reveal({
     </Component>
   );
 }
-=
+
 const iconProps = {
   width: 22,
   height: 22,
