@@ -329,7 +329,6 @@ function SocialProof() {
 const CHAPTERS: {
   title: string;
   desc: string;
-  Icon: () => React.JSX.Element;
 }[] = [
   {
     title: "Motion",
@@ -377,7 +376,6 @@ function Inside() {
             className="group rounded-2xl border border-[#e5e5e5] bg-white p-6 transition-all duration-200 hover:-translate-y-[3px] hover:border-[#d4d4d4] hover:shadow-[0_10px_30px_-15px_rgba(17,17,17,0.15)]"
           >
             <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-[#f7f7f5] text-[#111111]">
-              <c.Icon />
             </div>
             <div className="mt-6 flex items-baseline gap-2">
               <span className="text-xs font-medium text-[#6b6b6b]">
