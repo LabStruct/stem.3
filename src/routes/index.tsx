@@ -80,55 +80,6 @@ const iconProps = {
 };
 
 const Icons = {
-  Motion: () => (
-    <svg {...iconProps}>
-      <path d="M3 17c3 0 3-10 6-10s3 10 6 10 3-10 6-10" />
-    </svg>
-  ),
-  Electricity: () => (
-    <svg {...iconProps}>
-      <path d="M13 3 5 14h6l-1 7 8-11h-6l1-7Z" />
-    </svg>
-  ),
-  Aerospace: () => (
-    <svg {...iconProps}>
-      <path d="M12 2c3 3 4 7 4 11l4 3-5 1-3 5-3-5-5-1 4-3c0-4 1-8 4-11Z" />
-    </svg>
-  ),
-  Renewable: () => (
-    <svg {...iconProps}>
-      <circle cx="12" cy="12" r="2" />
-      <path d="M12 10V3M12 14v7M14 12h7M10 12H3" />
-    </svg>
-  ),
-  Robotics: () => (
-    <svg {...iconProps}>
-      <rect x="5" y="8" width="14" height="11" rx="2" />
-      <path d="M12 8V4M9 4h6M9 13h.01M15 13h.01M3 13v3M21 13v3" />
-    </svg>
-  ),
-  Design: () => (
-    <svg {...iconProps}>
-      <path d="M3 21h18M6 21V9l6-6 6 6v12M10 21v-6h4v6" />
-    </svg>
-  ),
-  Hand: () => (
-    <svg {...iconProps}>
-      <path d="M8 11V5a2 2 0 1 1 4 0v6M12 11V4a2 2 0 1 1 4 0v7M16 11V6a2 2 0 1 1 4 0v9a6 6 0 0 1-6 6h-2a6 6 0 0 1-6-6v-1l-2-3a1.5 1.5 0 0 1 2.5-1.6L8 12" />
-    </svg>
-  ),
-  World: () => (
-    <svg {...iconProps}>
-      <circle cx="12" cy="12" r="9" />
-      <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" />
-    </svg>
-  ),
-  Gift: () => (
-    <svg {...iconProps}>
-      <rect x="3" y="8" width="18" height="13" rx="1" />
-      <path d="M3 12h18M12 8v13M8 8a2.5 2.5 0 1 1 0-5c2 0 4 5 4 5s2-5 4-5a2.5 2.5 0 1 1 0 5" />
-    </svg>
-  ),
   Download: () => (
     <svg {...iconProps}>
       <path d="M12 3v13m0 0-5-5m5 5 5-5M5 21h14" />
@@ -314,9 +265,8 @@ function Hero() {
     <section id="top" className="relative">
       <div className="container-page grid gap-14 pb-16 pt-14 md:grid-cols-[1.05fr_.95fr] md:gap-16 md:pb-24 md:pt-20 lg:pt-24">
         <div className="flex flex-col justify-center">
-          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-[#e5e5e5] bg-white px-3 py-1 text-xs text-[#374151]">
             <span className="h-1.5 w-1.5 rounded-full bg-[#16a34a]" />
-            Free KS3 STEM textbook · UK
+            Free KS3 STEM textbook
           </div>
           <h1 className="mt-6 text-[2.5rem] font-bold leading-[1.05] tracking-tight text-[#111111] sm:text-5xl md:text-[3.5rem] lg:text-[4rem]">
             Learn STEM through building, experimenting and engineering.
@@ -357,7 +307,7 @@ function Hero() {
 
 function SocialProof() {
   const items = [
-    "Created by a UK National Finalist",
+    "Created by A* students",
     "200+ hours of development",
     "Free forever",
     "Designed for KS3 learners",
