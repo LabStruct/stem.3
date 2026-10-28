@@ -397,18 +397,16 @@ function Why() {
   const items = [
     {
       title: "Real-world engineering",
-      desc: "Every concept is anchored in something a student can see, touch, or build — from race cars to wind turbines.",
+      desc: "Every concept we use is anchored in something you can see, touch, or build: from race cars to wind turbines.",
       Icon: Icons.Check,
     },
     {
       title: "Hands-on experiments",
-      desc: "Practical activities you can run at home or in a classroom, using accessible materials.",
-      Icon: Icons.Check,
+      desc: "We use practical activities you can run at home or in a classroom using accessible materials.",
     },
     {
       title: "Completely free",
-      desc: "No signup, no paywall, no advertisements. Written to be shared with any KS3 student in Wales.",
-      Icon: Icons.Check,
+      desc: "No signup. No paywall. No advertisements. Just a free download for instant access to a free STEM textbook.",
     },
   ];
   return (
@@ -620,7 +618,6 @@ function Footer() {
               href="#"
               className="text-[#374151] transition-colors hover:text-[#111111]"
             >
-              Privacy
             </a>
           </nav>
         </div>
